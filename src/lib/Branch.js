@@ -1,4 +1,4 @@
-import {round} from './utils';
+import { round } from './utils';
 class Branch {
   constructor({ x, y, angle, length, thickness }) {
     this.startPoint = { x, y };

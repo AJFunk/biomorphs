@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import Header from '../Header';
 import styles from './App.module.css';
 
-const App = ({ children}) => (
+const App = ({ children }) => (
   <main className={styles.container}>
     <Header />
     <div className={styles.content}>

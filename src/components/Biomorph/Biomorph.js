@@ -72,7 +72,7 @@ class Biomorph extends Component {
   }
 
   draw() {
-    const {width, height} = this.canvas;
+    const { width, height } = this.canvas;
     const parentBranches = [];
     this.ctx.fillStyle = '#010511';
     this.ctx.fillRect(0, 0, width, height);

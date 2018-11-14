@@ -1,4 +1,4 @@
-import React, {PropTypes} from 'react';
+import React, { PropTypes } from 'react';
 import Biomorph from '../../components/Biomorph';
 import styles from './Main.module.css';
 
@@ -37,9 +37,7 @@ const Main = ({
 
 Main.propTypes = {
   parentGenome: PropTypes.array.isRequired,
-  descendantGenomes: PropTypes.arrayOf(
-    PropTypes.array
-  ).isRequired,
+  descendantGenomes: PropTypes.arrayOf(PropTypes.array).isRequired,
   getRandomGenome: PropTypes.func.isRequired,
   reproduce: PropTypes.func.isRequired,
   selectParentGenome: PropTypes.func.isRequired,

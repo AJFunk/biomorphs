@@ -14,7 +14,7 @@ import routes from './routes';
 
 const initialState = {};
 const appHistory = withScroll(
-  useRouterHistory(createHashHistory)({queryKey: false})
+  useRouterHistory(createHashHistory)({ queryKey: false })
 );
 const router = routerMiddleware(appHistory);
 const store = createStore(reducers, initialState, compose(
